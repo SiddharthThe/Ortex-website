@@ -30,6 +30,21 @@ bun run preview
 
 Replace `bun` with `npm run` for the equivalent npm commands.
 
+## Deploy to GitHub Pages
+
+The repository includes a GitHub Actions workflow that deploys automatically
+when changes are pushed to `main`. Enable Pages in the repository settings and
+choose **GitHub Actions** as the source.
+
+The published site will be available at:
+`https://siddharththe.github.io/Ortex-website/`
+
+To deploy manually from a local checkout:
+
+```bash
+npm run deploy
+```
+
 > **Move context, not copy-paste.**
 
 Ortex is a Chromium browser extension designed to synchronize and transfer conversation context between different Large Language Model (LLM) interfaces such as **ChatGPT, Claude, and Gemini**.
