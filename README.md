@@ -2,6 +2,34 @@
 
 ### Cross-Platform Context Orchestrator for Large Language Models
 
+## Run locally
+
+Requirements: Node.js 20 or Bun.
+
+Using Bun (recommended):
+
+```bash
+bun install
+bun run dev
+```
+
+Using npm:
+
+```bash
+npm install
+npm run dev
+```
+
+The development server is available at `http://localhost:3000`. To create and
+preview a production build:
+
+```bash
+bun run build
+bun run preview
+```
+
+Replace `bun` with `npm run` for the equivalent npm commands.
+
 > **Move context, not copy-paste.**
 
 Ortex is a Chromium browser extension designed to synchronize and transfer conversation context between different Large Language Model (LLM) interfaces such as **ChatGPT, Claude, and Gemini**.
