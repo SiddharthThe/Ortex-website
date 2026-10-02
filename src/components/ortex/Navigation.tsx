@@ -5,7 +5,7 @@ const links = [
   { href: "#product", label: "Product" },
   { href: "#how", label: "How it works" },
   { href: "#architecture", label: "Architecture" },
-  { href: GITHUB_URL, label: "GitHub" },
+  { href: "https://github.com/SiddharthThe/Ortex", label: "Github" },
 ];
 
 export function Navigation() {
